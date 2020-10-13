@@ -1,0 +1,22 @@
+Oct 14 00:23:40.174 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 14 00:23:40.175 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50782.
+Oct 14 00:23:40.651 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 14 00:23:40.652 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Documents\GNS3\projects\Linux_NW_Lab\project-files\dynamips 
+Oct 14 00:23:40.652 GENERAL: working_dir=D:\Documents\GNS3\projects\Linux_NW_Lab\project-files\dynamips
+Oct 14 00:23:40.652 HYPERVISOR: exec_cmd: nio_bridge create Hub4 
+Oct 14 00:23:45.731 HYPERVISOR: exec_cmd: nio create_udp udp-505b6c5c-3042-4869-8060-c08f15730a7d 10029 127.0.0.1 10028 
+Oct 14 00:23:45.732 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub4 udp-505b6c5c-3042-4869-8060-c08f15730a7d 
+Oct 14 00:23:45.871 HYPERVISOR: exec_cmd: nio create_udp udp-718fc0b6-3f65-47bb-8943-e6bfc4598292 10033 127.0.0.1 10032 
+Oct 14 00:23:45.872 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub4 udp-718fc0b6-3f65-47bb-8943-e6bfc4598292 
+Oct 14 00:23:46.012 HYPERVISOR: exec_cmd: nio create_udp udp-a03e6a21-24f1-442e-851a-054f5bdb7559 10035 127.0.0.1 10034 
+Oct 14 00:23:46.013 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub4 udp-a03e6a21-24f1-442e-851a-054f5bdb7559 
+Oct 14 08:24:13.167 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub4 udp-718fc0b6-3f65-47bb-8943-e6bfc4598292 
+Oct 14 08:24:13.172 HYPERVISOR: exec_cmd: nio delete udp-718fc0b6-3f65-47bb-8943-e6bfc4598292 
+Oct 14 08:24:17.722 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub4 udp-a03e6a21-24f1-442e-851a-054f5bdb7559 
+Oct 14 08:24:17.724 HYPERVISOR: exec_cmd: nio delete udp-a03e6a21-24f1-442e-851a-054f5bdb7559 
+Oct 14 08:24:22.093 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub4 udp-505b6c5c-3042-4869-8060-c08f15730a7d 
+Oct 14 08:24:22.112 HYPERVISOR: exec_cmd: nio delete udp-505b6c5c-3042-4869-8060-c08f15730a7d 
+Oct 14 08:24:22.151 HYPERVISOR: exec_cmd: nio_bridge delete Hub4 
+Oct 14 08:24:22.151 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 14 08:24:22.349 HYPERVISOR: Stopped.
+Oct 14 08:24:22.349 GENERAL: reset done.
